@@ -63,7 +63,7 @@ console.log(CemberinCevresi(5))
 	1. Argüman olarak çemberin yarıçapını BİRİNCİ parametre olacak alacaktır. 
 	2. Global değişken olarak verilmiş pi sayısını fonksiyonun İKİNCİ parametresi olacak alacaktır.
 	3. Çemberin alanı hesaplanacaktır (💡 İPUCU: Çemberin alanı = pi * yarıçapın karesi, yarıçapın karesini bulmak için Javascript içinde tanımlı Math kütüphanesini kullanabilirsiniz. Math.pow(yaricap,2))
-	4. Hesaplanan çemberin alanı döndürülecektir.
+	4. Hesaplanan çnemberin alanı döndürülecektir.
 */
 
 function CemberinAlani(yaricap) {
@@ -104,6 +104,8 @@ let ucetambolunenler,
 
 // 3a çözümü
 
+enkucuk = Infinity;
+enbuyuk = -Infinity;
 
 for (let i = 1; i < sayilar.length; i++) {
   if (sayilar[i] > enbuyuk) {
